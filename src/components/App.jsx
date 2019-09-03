@@ -1,14 +1,12 @@
 import React from "react";
-import Profile from "./Profile"
-import Feed from "./Feed"
-import Connections from "./Connections"
+import Content from "./Content"
+import Header from "./Header"
 
 function App(){
   return (
     <div>
-      <Profile />
-      <Feed />
-      <Connections />
+      <Header />
+      <Content />
     </div>
   );
 }
