@@ -6,9 +6,7 @@ import RibbitButton from "./RibbitButton";
 function Header (props) {
   return (
     <div className="header">
-      <NavButtons />
-      <SearchBar />
-      <RibbitButton ribbitUrl="/" ribbitText="Ribbit" />
+
     </div>
   );
 }

@@ -8,7 +8,7 @@ import Button from "./Button";
 function ProfileHeader(props) {
   return (
     <div id="profile">
-      <ProfilePic url={props.url}/>
+      <ProfilePic url={props.url} height={'300px'}/>
       <ProfileName name={props.name}/>
       <Button text={props.text}
       buttonUrl={props.buttonUrl}/>
